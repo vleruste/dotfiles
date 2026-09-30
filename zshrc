@@ -88,3 +88,4 @@ fi
 
 # Hook direnv but only if direnv is installed
 if (( $+commands[direnv] )); then eval "$(direnv hook zsh)"; fi
+export PATH="$PATH:$HOME/.local/bin"
